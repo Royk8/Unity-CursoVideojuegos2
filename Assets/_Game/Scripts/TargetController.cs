@@ -22,7 +22,8 @@ public class TargetController : MonoBehaviour
             }
 
             ScoreSingleton.Instance.AddScore(targetScore);
-            Destroy(this);
+
+            Debug.Log("Hola gola");
         }
     }
 }

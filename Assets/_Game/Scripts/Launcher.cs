@@ -10,8 +10,7 @@ public class Launcher : MonoBehaviour
     public GameObject spawnPointR;
     public GameObject spawnPointL;
     public float force;
-    public float rotationSpeed;
-    
+    public float rotationSpeed;    
     private Rigidbody ballRbR;
     private Rigidbody ballRbL;
 
@@ -35,7 +34,7 @@ public class Launcher : MonoBehaviour
     }
 
     public void Launch()
-    {
+    {        
         if (Input.GetButtonDown("Jump"))
         {
             if(ballR != null)
